@@ -82,7 +82,7 @@ Para interactuar con la implementación GraphQL simplificada sobre REST, puedes 
 
 | Método | Ruta                  | Descripción         |
 |--------|-----------------------|---------------------|
-| POST   | `/query`              | Realiza consultas GraphQL. |
+| POST   | `/query`              | Realiza consultas GraphQL simplificadas. Ver los ejemplos |
 
 #### Ejemplos de uso
 
@@ -290,9 +290,11 @@ Para interactuar con la implementación GraphQL simplificada sobre REST, puedes 
 
 Para interactuar con la implementación GraphQL utilizando gqlgen, todas las solicitudes se realizan a la misma ruta:
 
-- Ruta: ```http://localhost:8080/query```
+| Método | Ruta                  | Descripción         |
+|--------|-----------------------|---------------------|
+| POST   | `/query`              | Realiza consultas GraphQL |
 
-Asegúrate de seguir el estándar de GraphQL al realizar tus consultas y mutaciones.
+*Asegúrate de seguir el estándar de GraphQL al realizar tus consultas y mutaciones.*
 
 ---
 ---
